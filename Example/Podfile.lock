@@ -1,0 +1,16 @@
+PODS:
+  - espinner (0.1.0)
+
+DEPENDENCIES:
+  - espinner (from `../`)
+
+EXTERNAL SOURCES:
+  espinner:
+    :path: ../
+
+SPEC CHECKSUMS:
+  espinner: f7960017657807828b017c93873b4c84e1fd3609
+
+PODFILE CHECKSUM: ee04b4bc641f2042664b63cc919196a29b7919b7
+
+COCOAPODS: 1.2.0
