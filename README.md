@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/espinner.svg?style=flat)](http://cocoapods.org/pods/espinner)
 [![Platform](https://img.shields.io/cocoapods/p/espinner.svg?style=flat)](http://cocoapods.org/pods/espinner)
 
-![screen](https://s3.postimg.org/ckjy8tqhb/image.gif)![screen1](https://s3.postimg.org/lguqcrh3j/image.gif)
 
 ## Example
 
@@ -43,7 +42,7 @@ pod "espinner"
 
 ## Author
 
-cosmo1234, harpheezsagaya@gmail.com
+cosmo1234
 
 ## License
 
