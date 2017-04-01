@@ -11,6 +11,25 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+## Basic Usage 
+
+```ruby
+import "espinner"
+```
+```ruby
+espinner.start(uiview: view)
+```
+
+```ruby
+espinner.start(backgroundColor: .white, uiview: view)
+```
+
+```ruby
+espinner.stop()
+```
+
+
+
 ## Installation
 
 espinner is available through [CocoaPods](http://cocoapods.org). To install
