@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/espinner.svg?style=flat)](http://cocoapods.org/pods/espinner)
 [![Platform](https://img.shields.io/cocoapods/p/espinner.svg?style=flat)](http://cocoapods.org/pods/espinner)
 
+[](https://s3.postimg.org/ckjy8tqhb/image.gif)[](https://s3.postimg.org/lguqcrh3j/image.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
