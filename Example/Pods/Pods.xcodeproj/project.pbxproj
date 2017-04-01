@@ -10,12 +10,12 @@
 		057AD3B15BEB23725479E6D1A295BBDC /* espinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E227904149F15BE7DEBB746F676F7DAA /* espinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27D3E6F7FCE61CA888F3D8CA4C016CC6 /* Pods-espinner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6BCBA90671B6B8D4675F64594BBDAAA /* Pods-espinner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3175C51C94E8D8BBA41FC33EF25B0847 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		6D4EDFEC1E8FDFC30025A6FA /* espinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4EDFEB1E8FDFC30025A6FA /* espinner.swift */; };
 		8B91F25871377AC5D8A3202B6980D13B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		92B02A2A4E9289A587D6C796400FD563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9A1776CD27E229F2D0B91798233BCB2C /* espinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3748CEC0EBC3BBCEADD61DB54ED41 /* espinner-dummy.m */; };
+		A984D9C960C0961126F743C124DA83D9 /* espinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DA4E74AFF0405B0D6EBA462502DB57 /* espinner.swift */; };
 		B2F1DED24F37B68DF093F9F1B7D8A440 /* Pods-espinner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B29B7347F69C59A5B262098F20344B8 /* Pods-espinner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE41A2FC82B1408795787B205F65AC0C /* Pods-espinner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7B8E9BF01A614736572805FA96684B /* Pods-espinner_Example-dummy.m */; };
-		C565A38D523147D105CBBA362C66BEA4 /* espinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3748CEC0EBC3BBCEADD61DB54ED41 /* espinner-dummy.m */; };
 		C72789ADAF5F797C4AEBCEFC3C4D93E3 /* Pods-espinner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBFE844534953860441D84898285ED1 /* Pods-espinner_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -33,13 +33,13 @@
 		15FF29EAC3B313F1FA47DD94BDC253C6 /* Pods-espinner_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-espinner_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1B29B7347F69C59A5B262098F20344B8 /* Pods-espinner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-espinner_Example-umbrella.h"; sourceTree = "<group>"; };
 		265C478A0E013A88D957E8BFBE52FBE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3604F79A7D571C0FF73C08CA3DCF9671 /* Pods-espinner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-espinner_Example.modulemap"; sourceTree = "<group>"; };
+		3604F79A7D571C0FF73C08CA3DCF9671 /* Pods-espinner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-espinner_Example.modulemap"; sourceTree = "<group>"; };
 		371C637138E3E3638063A24EA72533D2 /* Pods-espinner_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-espinner_Tests-resources.sh"; sourceTree = "<group>"; };
 		3CFEDA399A53B41168F19279357D73EF /* Pods-espinner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-espinner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E29720986B4D88C71FF7031BDDB14F3 /* Pods-espinner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-espinner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3E7B8E9BF01A614736572805FA96684B /* Pods-espinner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-espinner_Example-dummy.m"; sourceTree = "<group>"; };
 		48C00A035FB6ED21F8364353AF63ED2B /* Pods-espinner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-espinner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		49EAC6118E27BD59C34DAF95D23CF4AB /* espinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = espinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EAC6118E27BD59C34DAF95D23CF4AB /* espinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = espinner.framework; path = espinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBFE844534953860441D84898285ED1 /* Pods-espinner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-espinner_Tests-dummy.m"; sourceTree = "<group>"; };
 		5043703D4B4F55408E096EE79B9EB4F2 /* Pods-espinner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-espinner_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		51548EB1C214B6BB5356332EAB0221BF /* Pods-espinner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-espinner_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -47,21 +47,21 @@
 		6569E258CE57B7112EABEBD8735D467F /* Pods-espinner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-espinner_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6580377754637EEB19F454732FF8AC04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A0E6BD6F14ED336D8E61A7558C415A3 /* Pods-espinner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-espinner_Example-resources.sh"; sourceTree = "<group>"; };
-		6D4EDFEB1E8FDFC30025A6FA /* espinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = espinner.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85DA4E74AFF0405B0D6EBA462502DB57 /* espinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = espinner.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F272852114AFD292A274AEB58A4F3F2 /* Pods-espinner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-espinner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A96BDC303FB5FA3B4A27957A594AF7C9 /* Pods_espinner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_espinner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96BDC303FB5FA3B4A27957A594AF7C9 /* Pods_espinner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_espinner_Example.framework; path = "Pods-espinner_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB3748CEC0EBC3BBCEADD61DB54ED41 /* espinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "espinner-dummy.m"; sourceTree = "<group>"; };
 		AE7B8FA5633CCA7CEC9CF5D5A9DDDD3C /* Pods-espinner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-espinner_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C6BCBA90671B6B8D4675F64594BBDAAA /* Pods-espinner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-espinner_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CBF9FAD15353645A8B469D317C90D53D /* Pods-espinner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-espinner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D5C871D6415D18D2911C456F07CEAB09 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD59AAEEF8AE077E50FA59A182EA6B6C /* espinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = espinner.modulemap; sourceTree = "<group>"; };
+		DD59AAEEF8AE077E50FA59A182EA6B6C /* espinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = espinner.modulemap; sourceTree = "<group>"; };
 		E227904149F15BE7DEBB746F676F7DAA /* espinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "espinner-umbrella.h"; sourceTree = "<group>"; };
 		EB3F52770240C63D17A3EAED370FEFDB /* espinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "espinner-prefix.pch"; sourceTree = "<group>"; };
-		EFAC5E5665AB3EE7C5CA094E78F5FD9A /* Pods_espinner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_espinner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD85BDCE08332748EC56F025A361C377 /* Pods-espinner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-espinner_Tests.modulemap"; sourceTree = "<group>"; };
+		EFAC5E5665AB3EE7C5CA094E78F5FD9A /* Pods_espinner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_espinner_Tests.framework; path = "Pods-espinner_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD85BDCE08332748EC56F025A361C377 /* Pods-espinner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-espinner_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +95,19 @@
 		26845A88483D0CD8CA77F0F04638004E /* espinner */ = {
 			isa = PBXGroup;
 			children = (
-				38E818C07D08C26EB2DC5948BF0EA8D9 /* Classes */,
+				3617AF87C0BD336E900F1E98B4E9ACCD /* Classes */,
 			);
+			name = espinner;
 			path = espinner;
+			sourceTree = "<group>";
+		};
+		3617AF87C0BD336E900F1E98B4E9ACCD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				85DA4E74AFF0405B0D6EBA462502DB57 /* espinner.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		36F452B545BC4BC18E82DBDD03988310 /* espinner */ = {
@@ -108,14 +118,6 @@
 			);
 			name = espinner;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		38E818C07D08C26EB2DC5948BF0EA8D9 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6D4EDFEB1E8FDFC30025A6FA /* espinner.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		42EA7B067C3159C02B85A1341A1D74F3 /* Targets Support Files */ = {
@@ -274,7 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E469593D81C5978A1892F1041C4CB61 /* Build configuration list for PBXNativeTarget "espinner" */;
 			buildPhases = (
-				4F75B83897D8526F5167139403C0DA53 /* Sources */,
+				67905D51E688C551F87395BDA14FF4F6 /* Sources */,
 				476F525A34893A8421C8C990D3831752 /* Frameworks */,
 				32C4413417EF7C0F1242C6B3E866D817 /* Headers */,
 			);
@@ -312,11 +314,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					951815DCC8D6C97514AA8756D27C3C53 = {
-						LastSwiftMigration = 0820;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -346,12 +343,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F75B83897D8526F5167139403C0DA53 /* Sources */ = {
+		67905D51E688C551F87395BDA14FF4F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C565A38D523147D105CBBA362C66BEA4 /* espinner-dummy.m in Sources */,
-				6D4EDFEC1E8FDFC30025A6FA /* espinner.swift in Sources */,
+				9A1776CD27E229F2D0B91798233BCB2C /* espinner-dummy.m in Sources */,
+				A984D9C960C0961126F743C124DA83D9 /* espinner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,7 +601,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 603CFD8DD5256431E1A85833D3716AC4 /* espinner.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -638,7 +634,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 603CFD8DD5256431E1A85833D3716AC4 /* espinner.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
