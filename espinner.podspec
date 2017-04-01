@@ -13,9 +13,7 @@ Pod::Spec.new do |s|
 
 # This description is used to generate tags and improve search results.
 #  * Think: What does it do? Why did you write it? What is the focus?
-   * iOS easy activity indicator
-   * Activity Indicator swift ios library
-   * Activity Indicator with multi colors
+
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
